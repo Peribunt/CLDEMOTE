@@ -241,7 +241,6 @@ LocateNtoskrnl(
 	{
 		if ( IsMappedToPhysicalPage( Current + CurSize ) )
 		{
-			//Current += 0x1000;
 			CurSize += 0x1000;
 
 			continue;
