@@ -21,10 +21,4 @@ BOOLEAN
 IsMappedToPhysicalPage( 
 	_In_ LPVOID VirtualAddress 
 	);
-
-LPVOID
-LocateNtoskrnl( 
-	VOID 
-	);
-
 #endif
