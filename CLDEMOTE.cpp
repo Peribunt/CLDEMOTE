@@ -156,7 +156,6 @@ IsMappedToPhysicalPage(
 	_In_ LPVOID VirtualAddress
 	)
 {
-	LPVOID          ValidAddress = GetModuleHandleA( "NTDLL.DLL" );
 	INT32           CpuidRegs[ 4 ];
 	CLDEMOTE_DELTAS Deltas;
 
